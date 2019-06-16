@@ -1,0 +1,176 @@
+/*
+     Name: Parren Chen
+     Date: April 9, 2019
+     Section: CSE 154 AL
+     This is the style.css page for Mowgli the Debug Dog. It's used
+     for consistent look and feel for the page.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+.side-by-side {
+  display: flex;
+}
+
+/* TODO: Add all of your CSS for non-creative-section parts of HW1 here! */
+body{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-image: url(img/dog-footprint.png);
+  background-color: #FEE8C8;
+  background-attachment: fixed;
+  font-family: 'Space Mono', monospace;
+}
+
+header{
+  background-image: url(img/header-background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 350px;
+}
+
+header h1{
+  font-size: 3.1em;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 10px;
+}
+
+h1, h2, h3{
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-align: center;
+}
+
+a:link{
+  color: purple;
+}
+
+a:visited{
+  color:midnightblue;
+}
+
+#endorsements, h1, footer{
+  background-color: #34495E;
+  color: #EBEDEF;
+}
+
+#profilepic{
+  padding-top: 3%;
+  padding-left: 75%;
+}
+
+#profilepic img{
+  height: 100%;
+  width: 300px;
+  border: 10px solid white;
+  border-radius: 200px;
+}
+
+footer{
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 1vw;
+  text-align: center;
+}
+
+footer img{
+  height: 70px;
+  margin-right: 10px;
+  align-content: center;
+  vertical-align: middle;
+}
+
+main{
+  margin-top: 8%;
+  margin-bottom: 4%;
+  border-radius: 5px;
+  background-color: #EBEDEF;
+  color:#34495E;
+}
+
+main > section{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+h2{
+  text-transform: uppercase;
+  font-size: 1.6em;
+}
+
+#background{
+  margin: 10px;
+}
+
+#facts{
+  border-top: 5px solid #34495E;
+  border-bottom: 5px solid #34495E;
+}
+
+#facts p{
+  margin: 10px;
+}
+
+#facts img{
+  height: 100%;
+  width: 300px;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#endorsements img{
+  width: 30vw;
+  max-width: 400px;
+  height: 100%;
+}
+
+.card{
+  background-color: #EBEDEF;
+  color:#34495E;
+  border-left: 10px solid #AEB6BF;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.card hr{
+  width: 40%;
+}
+
+/********** Begin CSS for the Creative Section Here **********/
+
+ .info{
+   border: 15px solid pink;
+   width: 30%;
+   height: 300px;
+   border-radius: 20px;
+   padding: 10px;
+   margin: 10px;
+   justify-content: center;
+ }
+
+#creative h2{
+  color: #54cbe2;
+}
+
+h4{
+  font-size: larger;
+}
+
+.info p, .info li{
+  font-style: oblique;
+}
+
+.info img{
+  opacity: 0.85;
+}
+
+/********** End CSS for the Creative Section Here   **********/
